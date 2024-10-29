@@ -1,6 +1,4 @@
 cmake -S . -B ./build
 cd build
-make
-clear
-./exec
+make && clear && ./exec
 cd ..
